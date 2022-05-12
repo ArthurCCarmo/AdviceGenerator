@@ -1,0 +1,134 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+
+}
+
+
+.card {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(50, 58, 73);
+    margin: 0 auto;
+    margin-top: 150px;
+    font-family: "Manrope", sans-serif;
+    border-radius: 15px;
+    box-shadow: 3px 3px 29px -1px hsl(220, 12%, 20%);
+}
+
+.Advice {
+    margin-bottom: 30px;
+    text-align: center;
+    color: hsl(150, 100%, 66%);
+    font-size: 10px;
+}
+
+#number {
+    padding-top: 10px;
+    color: hsl(150, 100%, 66%);
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.card p {
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+
+
+
+#random {
+    width: 25px;
+    display: block;
+    padding-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.divider {
+    position: relative;
+    width: 85%;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+#botao {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    margin-top: 60px;
+    margin-left: 225px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: hsl(150, 100%, 66%);
+    top: 350px;
+    text-decoration: none;
+
+}
+
+.botaoDesativado {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    margin-top: 60px;
+    margin-left: 225px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #ccc;
+    cursor: not-allowed;
+    top: 350px;
+    text-decoration: none;
+}
+
+#botao:active {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+
+}
+
+
+footer {
+    margin-top: 80px
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+    .card {
+        width: 300px;
+        margin: auto auto;
+    }
+
+    .card p {
+        font-size: 20px;
+    }
+
+    .divider {
+        position: relative;
+        width: 85%;
+        margin-top: 51px;
+        margin-left: 21px;
+        text-align: center;
+    }
+
+    #botao {
+        width: 45px;
+        height: 45px;
+        margin-top: -69px;
+        margin-left: 232px;
+
+    }
+
+    #random {
+        width: 20px;
+    }
+}
